@@ -1,9 +1,9 @@
 # Practical Lab 1 — evidence
 
-Repository URL:
-Final commit identifier: submit separately if adding it here would create a new commit.
-Build configuration:
-Known unfinished requirements:
+Repository URL: https://github.com/BenBolger644/OOP-Programming/tree/main/Lab1
+Final commit identifier: "Finishing Push to Github"
+Build configuration:Debug, x64, C++17 Visual Studio 2022, v143 toolset
+Known unfinished requirements: None
 
 ## A — Structure and diagnosis
 
@@ -44,17 +44,17 @@ Record predictions before running. Do not claim a test passed unless you ran it.
 
 | ID | Input/data | Expected | Actual/exit status | Pass/fail | Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| P1 |normal.txt (12,0,8,20); North Depot, 25|batches 4, low 2, original 40, remaining 15, count 1|Matched Prediction Perfectly|Pass|Confirms baseline dispatch and pointer logic work together correctly|
-| P2 | | | | | |
-| P3 | | | | | |
-| P4 | | | | | |
-| P5 | | | | | |
-| P6 | | | | | |
-| P7 | | | | | |
-| P8 — own case | | | | | |
+| P1 |normal.txt (12,0,8,20); North Depot, 25|batches 4, low 2, original 40, remaining 15, count 1|(process 20588) exited with code 0 (0x0).|Pass|Confirms baseline dispatch and pointer logic work together correctly|
+| P2 |short-stack.txt (4,6); North Depot, 25|batches 2, low 2, original 10, remaining 0, count 1|(process 23144) exited with code 0 (0x0).|Pass|Confirms a shortage dispatches available stock rather than the full request|
+| P3 |normal.txt (12,0,8,20); North Depot, 0|batches 4, low 2, original 40, remaining 40, count 0|(process 7036) exited with code 0 (0x0).|Pass|Confirms a request of 0 dispatches nothing and leaves stock unchanged, and the dispatch counter doesnt change when nothing is dispatched.|
+| P4 |normal.txt (12,0,8,20): North Depot, abc, then 80, then 25abc|two retries, (abc rejected as unreachable, 80 is out of range) 25 accepted, batch 4, low 2, original 40, remaining 15, count 1|(process 7036) exited with code 0 (0x0).|Pass|Confirms the recovery loop distinguishes unreadable from out of range entries and both are correctly offered witha retry|
+| P5 |normal.txt (12, 0, 8, 20); North Depot, 25|"Error: could not open batches.txt" printed and program exits with non-zero (1) and no completed report|(process 4056) exited with code 1 (0x1).|Pass|Confirms an open is reported properly and stops the program before any report is attempted.|
+| P6 |empty.txt (); North Depot, 25|"No Batches Found" error printed, exit code of 1 and no completed report|(process 14908) exited with code 0 (0x0).|Pass|Confirms an empty file is treated as its own error from the missing file.|
+| P7 |malformed-final.txt (12 8 +); North Depot, 25|Invalid Data Error, exit 1, no completed report|(process 15596) exited with code 1 (0x1).|Pass|Confirms malformed entries return invalid data rather than mistaken for a clean end of file|
+| P8 — own case |out-of-range.txt (12, 41); North Depot, 25|Invalid batch value error with an exit of 1 and no completed report|(process 10388) exited with code 1 (0x1).|Pass|Confirms a value one above the maximum is correctly rejected and program is terminated|
 
 Why does the extra test detect something the baseline does not?
 
-Final baseline restored:
-Both projects build / recorded limitations:
-Source snapshot and evidence submitted:
+Final baseline restored: Yes, Batches.txt contains 12, 0, 8, 20
+Both projects build / recorded limitations: Both DispatchAudit and BuildInvestigation build successfully with no known limitations
+Source snapshot and evidence submitted: Yes, commited and pushed to https://github.com/BenBolger644/OOP-Programming/tree/main/Lab1, source ZIP and Evidence.md complete
