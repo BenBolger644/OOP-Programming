@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TrainingBotLab.vcxproj" Id="8fa3a4a7-b0a2-4c50-a07d-bbd9680a1eb0" />
+</Solution>

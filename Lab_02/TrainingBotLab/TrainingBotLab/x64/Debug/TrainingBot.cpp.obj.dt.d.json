@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\school\\2nd year\\lab_02\\trainingbotlab\\trainingbot.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\school\\2nd year\\lab_02\\trainingbotlab\\trainingbot.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
