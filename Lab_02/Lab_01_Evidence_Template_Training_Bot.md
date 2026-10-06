@@ -1,13 +1,13 @@
 # Chapter 2 · Practical Lab 1 · Evidence
 ## Training bot status console
 
-Name or student identifier: [complete]
+Name or student identifier: Benjamin Bolger C00324085
 
-Date (YYYY-MM-DD): [complete]
+Date (YYYY-MM-DD): 06/10/2026
 
-Repository URL, if used: [complete / not used]
+Repository URL, if used: https://github.com/BenBolger644/OOP-Programming
 
-Visual Studio version: [complete]
+Visual Studio version: vs2026
 
 Platform Toolset: v145 · Language: C++17 · Configuration: Debug · Platform: x64
 
@@ -39,7 +39,7 @@ Create the Visual Studio project from scratch before completing this section.
 
 **Project name:**
 
-[complete]
+TraingBotLab
 
 **Files currently in the project:**
 
@@ -63,11 +63,11 @@ Training bot lab
 
 **Did the starter project build and run successfully?**
 
-[yes / no]
+yes
 
 If no, briefly record the problem you fixed:
 
-[complete / not applicable]
+No Problem
 
 ---
 
@@ -77,25 +77,25 @@ After creating `TrainingBot.h` and `TrainingBot.cpp`, the program should create 
 
 **Expected health before running:**
 
-[complete]
+Health will start at 100
 
 **Actual console output:**
 
 ```text
-[copy the relevant output here]
+starting health: 100
 ```
 
 **Complete this sentence:**
 
-`TrainingBot` is the ____________________, while `bot` is an ____________________ created from it.
+`TrainingBot` is the class, while `bot` is an object created from it.
 
 **Why is `m_health` private?**
 
-[one sentence]
+Its private as it is not needed to be accessed directly, as a function will be created for that.
 
 **Status:**
 
-[not started / working / complete]
+complete
 
 ---
 
@@ -109,11 +109,11 @@ The bot starts at 100 health and takes 25 damage.
 
 **My prediction before running:**
 
-Health will be: [complete]
+Health will be: 75
 
 **Actual health:**
 
-[complete]
+75
 
 ### Large damage
 
@@ -121,21 +121,21 @@ Temporarily change the damage amount to 500.
 
 **My prediction before running:**
 
-Health will be: [complete]
+Health will be: 0
 
 **Actual health:**
 
-[complete]
+0
 
 **Why should the result be `0` rather than a negative number?**
 
-[one sentence]
+Because we have written code that converts players health to 0 if damage is greater than current health
 
 Return the damage amount to `25` before continuing.
 
 **Status:**
 
-[not started / working / complete]
+Complete
 
 ---
 
@@ -154,7 +154,7 @@ Alive: true
 **Actual result:**
 
 ```text
-[complete]
+Alive: true
 ```
 
 ### After heavy damage
@@ -168,16 +168,16 @@ Alive now: false
 **Actual result:**
 
 ```text
-[complete]
+alive: false
 ```
 
 **Why is `isAlive()` declared with `const`?**
 
-[one sentence]
+the function only looks at the bot and not its actual health
 
 **Status:**
 
-[not started / working / complete]
+complete
 
 ---
 
@@ -192,11 +192,11 @@ TrainingBot secondBot{40};
 
 **Starting health of `firstBot`:**
 
-[complete]
+100
 
 **Starting health of `secondBot`:**
 
-[complete]
+40
 
 **What does this part of the constructor do?**
 
@@ -204,11 +204,11 @@ TrainingBot secondBot{40};
 : m_health{t_health}
 ```
 
-[one sentence]
+it initializes m_health with the value of t_health
 
 **Status:**
 
-[not started / working / complete]
+complete
 
 ---
 
@@ -228,13 +228,13 @@ secondBot.takeDamage(10);
 
 **My prediction before running:**
 
-- `firstBot` health: [complete]
-- `secondBot` health: [complete]
+- `firstBot` health: 75
+- `secondBot` health: 30
 
 **Actual values:**
 
-- `firstBot` health: [complete]
-- `secondBot` health: [complete]
+- `firstBot` health: 75
+- `secondBot` health: 30
 
 ### Small prediction check
 
@@ -254,23 +254,23 @@ Before running, predict the values.
 
 **Prediction:**
 
-- `firstBot` health: [complete]
-- `secondBot` health: [complete]
+- `firstBot` health: 75
+- `secondBot` health: 0
 
 **Actual values:**
 
-- `firstBot` health: [complete]
-- `secondBot` health: [complete]
+- `firstBot` health: 75
+- `secondBot` health: 0
 
 Restore the damage amount to `10` afterwards.
 
 **What does this experiment show about two objects created from the same class?**
 
-[one or two sentences]
+The two objects are from the same class but can have their own seperate variables values based on spawning conditions and actions taken to their specific objecct.
 
 **Status:**
 
-[not started / working / complete]
+complete
 
 ---
 
@@ -301,16 +301,30 @@ Second bot alive: false
 **Paste your final console output below:**
 
 ```text
-[copy your final output here]
+Training bot lab
+
+First bot
+Starting health: 100
+After 25 damage: 75
+Alive: true
+
+Second bot
+Starting health: 40
+After 10 damage: 30
+Alive: true
+
+Heavy damage
+Second bot health: 0
+Second bot alive: false
 ```
 
 **Does your output match the lab?**
 
-[yes / no]
+yes
 
 If no, briefly describe the remaining difference:
 
-[complete / not applicable]
+complete
 
 ---
 
@@ -320,19 +334,19 @@ Answer each question in one sentence.
 
 **1. What is the difference between `TrainingBot` and `firstBot`?**
 
-[complete]
+TrainingBot is the class while first bot is the object of the training bot
 
 **2. Why is `m_health` private?**
 
-[complete]
+Because its in the private section of the traingbot class as main.cpp shouldnt and doesnt need to access it directly.
 
 **3. Why are `health()` and `isAlive()` `const` member functions?**
 
-[complete]
+They are const because they do not need to change, and thus making the class easier to change around.
 
 **4. What does the member initialiser list in `TrainingBot(int t_health)` do?**
 
-[complete]
+Training bot has the original 100 health when using the default member, but trainingbot can be called with (int_health) to customize the spawn health if wished.
 
 ---
 
@@ -342,15 +356,15 @@ You only need to complete this section if you encountered a real problem.
 
 **What went wrong?**
 
-[complete / no problem recorded]
+No problem
 
 **What did I change?**
 
-[complete / not applicable]
+No problem
 
 **What happened after rebuilding?**
 
-[complete / not applicable]
+No problem
 
 Do not invent an error if you did not encounter one.
 
@@ -362,7 +376,7 @@ Complete this section only if you attempted the optional stretch task.
 
 **Did you add `reset()`?**
 
-[yes / no / not attempted]
+yes
 
 **Expected output after reset:**
 
@@ -373,12 +387,12 @@ After reset: 100
 **Actual output:**
 
 ```text
-[complete / not attempted]
+after reset: 100
 ```
 
 **What does `reset()` change?**
 
-[one sentence / not attempted]
+Reset simply changes the health back to its original
 
 ---
 
@@ -404,4 +418,4 @@ After reset: 100
 
 One class concept I can now explain without copying the lab:
 
-[complete]
+How consts work efficiently and effectively. I wasnt completely able to before this lab
