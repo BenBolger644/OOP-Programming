@@ -20,3 +20,15 @@ bool Beacon::active() const // Return whether the beacon is active or not
 {
 	return m_active;
 }
+
+void Beacon::activate(int t_strength)
+{
+	m_strength = t_strength; // Set the strength of the beacon to the provided value
+	m_active = true;
+}
+
+void Beacon::reset()
+{
+	m_strength = 0;
+	m_active = false;
+}
