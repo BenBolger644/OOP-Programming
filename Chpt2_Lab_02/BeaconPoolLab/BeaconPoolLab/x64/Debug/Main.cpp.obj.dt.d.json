@@ -127,7 +127,9 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\ctype.h",
             "d:\\apps\\visual studio\\visual studio 2026\\vc\\tools\\msvc\\14.51.36231\\include\\clocale",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\locale.h",
-            "d:\\apps\\visual studio\\visual studio 2026\\vc\\tools\\msvc\\14.51.36231\\include\\ostream"
+            "d:\\apps\\visual studio\\visual studio 2026\\vc\\tools\\msvc\\14.51.36231\\include\\ostream",
+            "d:\\school\\2nd year\\oop-programming\\chpt2_lab_02\\beaconpoollab\\beacon.h",
+            "d:\\school\\2nd year\\oop-programming\\chpt2_lab_02\\beaconpoollab\\receiver.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

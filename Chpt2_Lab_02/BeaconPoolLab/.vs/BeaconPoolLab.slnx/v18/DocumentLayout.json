@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Receiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:Receiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Receiver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:Receiver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Beacon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:Beacon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Beacon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:BeaconPool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Receiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:Receiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\BeaconPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:BeaconPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{15A8EC47-20C1-41EC-AC0E-250F84D4B976}|BeaconPoolLab.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Beacon.cpp",
+              "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Beacon.cpp",
+              "RelativeDocumentMoniker": "Beacon.cpp",
+              "ToolTip": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Beacon.cpp",
+              "RelativeToolTip": "Beacon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-12T20:26:34.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BeaconPool.cpp",
               "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\BeaconPool.cpp",
               "RelativeDocumentMoniker": "BeaconPool.cpp",
@@ -46,25 +63,24 @@
               "RelativeToolTip": "BeaconPool.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-12T11:45:20.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-12T11:45:20.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Receiver.cpp",
               "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Receiver.cpp",
               "RelativeDocumentMoniker": "Receiver.cpp",
               "ToolTip": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Receiver.cpp",
               "RelativeToolTip": "Receiver.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-12T11:45:09.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BeaconPool.h",
               "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\BeaconPool.h",
               "RelativeDocumentMoniker": "BeaconPool.h",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "BeaconPool.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-12T11:45:01.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-12T11:45:01.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Receiver.h",
               "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Receiver.h",
               "RelativeDocumentMoniker": "Receiver.h",
@@ -90,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Beacon.h",
               "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Beacon.h",
               "RelativeDocumentMoniker": "Beacon.h",
@@ -103,13 +118,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-12T11:42:50.303Z",
               "EditorCaption": ""

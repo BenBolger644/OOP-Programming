@@ -1,2 +1,6 @@
-﻿  Main.cpp
+﻿  Beacon.cpp
+  BeaconPool.cpp
+  Main.cpp
+  Receiver.cpp
+  Generating Code...
   BeaconPoolLab.vcxproj -> D:\School\2nd Year\OOP-Programming\Chpt2_Lab_02\BeaconPoolLab\x64\Debug\BeaconPoolLab.exe

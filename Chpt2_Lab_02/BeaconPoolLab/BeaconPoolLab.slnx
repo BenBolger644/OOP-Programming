@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="BeaconPoolLab.vcxproj" />
+  <Project Path="BeaconPoolLab.vcxproj" Id="15a8ec47-20c1-41ec-ac0e-250f84d4b976" />
 </Solution>

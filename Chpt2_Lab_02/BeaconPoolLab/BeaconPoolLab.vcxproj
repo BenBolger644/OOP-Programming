@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Beacon.cpp" />
     <ClCompile Include="BeaconPool.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Receiver.cpp" />
