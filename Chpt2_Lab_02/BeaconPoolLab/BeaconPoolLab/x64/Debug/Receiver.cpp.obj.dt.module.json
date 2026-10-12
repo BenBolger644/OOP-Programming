@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "BeaconPoolLab\\x64\\Debug\\Receiver.obj",
+            "outputs": [
+                "BeaconPoolLab\\x64\\Debug\\Receiver.cpp.obj.dt.module.json",
+                "BeaconPoolLab\\x64\\Debug\\Receiver.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
