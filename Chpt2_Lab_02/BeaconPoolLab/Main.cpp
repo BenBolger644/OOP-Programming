@@ -42,7 +42,19 @@ int main()
 	std::cout << "Active beacons: " << poolA.activeCount() << '\n';
 	std::cout << "Successful requests: " << BeaconPool::successfulRequests() << '\n';
 
+	// Pool b cotains 0
+	// slot 0 
+	// No, it stays at 3
+	// 5
 
+	std::cout << "\nPool B\n";
+	BeaconPool poolB{};
+	std::cout << "Pool B active: " << poolB.activeCount() << '\n';
+	int other{ poolB.request(25) };
+	std::cout << "Pool B request 25 -> slot " << other << '\n';
+	std::cout << "Pool A active: " << poolA.activeCount() << '\n';
+	std::cout << "Pool B active: " << poolB.activeCount() << '\n';
+	std::cout << "Successful requests: " << BeaconPool::successfulRequests() << '\n';
 
 	return 0;
 }

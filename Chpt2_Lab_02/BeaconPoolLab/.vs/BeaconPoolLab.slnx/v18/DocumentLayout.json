@@ -62,8 +62,7 @@
               "RelativeToolTip": "BeaconPool.cpp",
               "ViewState": "AgIAAA0AAAAAAAAAAAAcwBsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-12T11:45:20.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-12T11:45:20.213Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "BeaconPool.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-12T11:45:01.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-12T11:45:01.788Z"
             },
             {
               "$type": "Document",
@@ -120,9 +118,9 @@
               "Title": "Main.cpp",
               "DocumentMoniker": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Main.cpp",
-              "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "ToolTip": "D:\\School\\2nd Year\\OOP-Programming\\Chpt2_Lab_02\\BeaconPoolLab\\Main.cpp*",
+              "RelativeToolTip": "Main.cpp*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-12T11:42:50.303Z",
               "EditorCaption": ""
