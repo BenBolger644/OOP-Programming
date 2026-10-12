@@ -3,7 +3,10 @@
     "Data": {
         "Source": "d:\\school\\2nd year\\oop-programming\\chpt2_lab_02\\beaconpoollab\\beaconpool.cpp",
         "ProvidedModule": "",
-        "Includes": [],
+        "Includes": [
+            "d:\\school\\2nd year\\oop-programming\\chpt2_lab_02\\beaconpoollab\\beaconpool.h",
+            "d:\\school\\2nd year\\oop-programming\\chpt2_lab_02\\beaconpoollab\\beacon.h"
+        ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
     }
