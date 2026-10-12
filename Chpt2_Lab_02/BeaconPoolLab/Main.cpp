@@ -5,6 +5,9 @@
 
 int main()
 {
+
+	std::cout << std::boolalpha; // Print bools as true/false instead of 1/0
+
 	std::cout << "Beacon Pool Lab\n";
 
 	std::cout << "\nConnection Check\n";
@@ -26,6 +29,18 @@ int main()
 	std::cout << "Request 60 -> slot " << second << '\n';
 	std::cout << "Request 90 -> slot " << third << '\n';
 	std::cout << "Request 50 -> slot " << full << '\n';
+
+	std::cout << "Active beacons: " << poolA.activeCount() << '\n';
+	std::cout << "Successful requests: " << BeaconPool::successfulRequests() << '\n';
+
+	std::cout << "\nRelease and reuse\n";
+	bool released{ poolA.release(second) };
+	std::cout << "Released slot " << second << ": " << released << '\n';
+	std::cout << "Strength after release: " << poolA.strengthAt(second) << '\n';
+	int reused{ poolA.request(75) };
+	std::cout << "Request 75 -> slot " << reused << '\n';
+	std::cout << "Active beacons: " << poolA.activeCount() << '\n';
+	std::cout << "Successful requests: " << BeaconPool::successfulRequests() << '\n';
 
 
 
