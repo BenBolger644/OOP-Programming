@@ -1,13 +1,13 @@
 # Chapter 2 · Practical Lab 3 · Evidence
 ## Enemy wave memory console
 
-Name or student identifier: [complete]
+Name or student identifier: c00324085
 
-Date (YYYY-MM-DD): [complete]
+Date (YYYY-MM-DD): 2026/10/19
 
-Repository URL, if used: [complete / not used]
+Repository URL, if used: https://github.com/BenBolger644/OOP-Programming/tree/main/Chpt2_Lab_03
 
-Visual Studio version: [complete]
+Visual Studio version: V2026
 
 Platform Toolset: v145 · Language: C++17 · Configuration: Debug · Platform: x64
 
@@ -29,7 +29,7 @@ Never deliberately run a double delete, use-after-delete, out-of-bounds access o
 
 **Project name:**
 
-[complete]
+EnemyWaveMemoryLab
 
 **Files created:**
 
@@ -55,11 +55,11 @@ Enemy wave memory lab
 
 **Did the empty project build and run successfully?**
 
-[yes / no]
+yes
 
 If no, briefly record the problem you fixed:
 
-[complete / not applicable]
+not applicable
 
 ---
 
@@ -70,36 +70,37 @@ For the single-enemy stage, identify the object and the pointer separately.
 **Allocation expression used:**
 
 ```cpp
-[complete]
+new Enemy{}
 ```
 
 **Starting health predicted:**
 
-[complete]
+100
 
 **Health after 30 damage predicted:**
 
-[complete]
+70
 
 **Actual output:**
 
 ```text
-[copy the Single dynamic enemy output here]
+Starting health: 100
+After 30 damage: 70
 ```
 
 **Who owns the dynamically allocated Enemy?**
 
-[one sentence]
+the code in main owns it through pEnemy
 
 **Which statement releases that allocation?**
 
 ```cpp
-[complete]
+delete pEnemy;
 ```
 
 **Why does setting the pointer to `nullptr` not replace the required release?**
 
-[one sentence]
+It only changes what the pointer variable stores. The allocated Enemy still exists and would be leaked.
 
 ---
 

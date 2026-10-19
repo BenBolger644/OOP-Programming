@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "EnemyWav.0a0c2508\\x64\\Debug\\Enemy.obj",
+            "outputs": [
+                "EnemyWav.0a0c2508\\x64\\Debug\\Enemy.h.obj.dt.module.json",
+                "EnemyWav.0a0c2508\\x64\\Debug\\Enemy.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
