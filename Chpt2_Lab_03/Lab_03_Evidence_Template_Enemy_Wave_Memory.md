@@ -266,9 +266,9 @@ Record the three ownership cases used in the practical.
 
 | Allocation | What exists | Owner | Matching release |
 |---|---|---|---|
-| `new Enemy{}` | [complete] | [complete] | [complete] |
-| `new Enemy[enemyCount]` | [complete] | [complete] | [complete] |
-| `new Enemy[m_count]` inside `EnemyWave` | [complete] | [complete] | [complete] |
+| `new Enemy{}` | one Enemy object | main via pEnemy | delete pEnemy; |
+| `new Enemy[enemyCount]` | array of 3 Enemy objects | main via pEnemies | delete[] pEnemies; |
+| `new Enemy[m_count]` inside `EnemyWave` | array of m_count Enemy objects | the EnemyWave object | delete[] m_enemies; in the destructor |
 
 ---
 
@@ -277,16 +277,35 @@ Record the three ownership cases used in the practical.
 Paste your final program output.
 
 ```text
-[complete]
+Enemy wave memory lab
+Single dynamic enemy
+Starting health: 100
+After 30 damage: 70
+Raw dynamic array
+Enemy 0 health: 75
+Enemy 1 health: 0
+Enemy 2 health: 40
+Alive enemies: 2
+Total health: 115
+Owned wave
+Enemies: 3
+Enemy 0 health: 75
+Enemy 1 health: 0
+Enemy 2 health: 40
+Alive enemies: 2
+Total health: 115
+Invalid wave
+Enemies: 0
+Total health: 0
 ```
 
 **Does it match the published output in the practical?**
 
-[yes / no]
+yes
 
 If no, record the remaining difference:
 
-[complete / not applicable]
+Not applicable
 
 ---
 
@@ -296,23 +315,23 @@ Answer each in one or two sentences.
 
 **1. What is the difference between a pointer variable and the dynamically allocated object it identifies?**
 
-[complete]
+A pointer variable only stores the address. The dynamically allocated object is a seperate thing that exits up until its released
 
 **2. Why does `new Enemy[3]` use `delete[]` rather than `delete`?**
 
-[complete]
+new Enemy[3] makes one array allocation, so delete[] destroys every element and releases the whole thing. Plain delete would treat it as a single object.
 
 **3. Why does destroying an `EnemyWave` need to release its array?**
 
-[complete]
+If the destructor didn't releasr the array, the memory would leak when the wave goes out of scope.
 
 **4. Why does the raw pointer type alone not prove who owns the target?**
 
-[complete]
+A raw Enemy* could point to an owned allocated or a borrowed one. Ownership is just a design rule, not something the type shows.
 
 **5. Why is a correct printed value not enough to prove that the lifetime logic is correct?**
 
-[complete]
+Wrong ligetime logic can still print correct values, so the output doesnt prove the cleanup is correct.
 
 ---
 
@@ -322,15 +341,15 @@ Complete this only if you encountered a genuine problem.
 
 **What went wrong?**
 
-[complete / no problem recorded]
+No problem occurred
 
 **What did I change?**
 
-[complete / not applicable]
+Not applicable
 
 **What happened after rebuilding?**
 
-[complete / not applicable]
+Not applicable
 
 Do not invent an error if you did not encounter one.
 
@@ -342,7 +361,7 @@ Complete only if attempted.
 
 **Did you add `bool empty() const;`?**
 
-[yes / no / not attempted]
+Not attempted
 
 **Expected results:**
 
@@ -352,7 +371,7 @@ Complete only if attempted.
 
 **Actual results:**
 
-[complete / not attempted]
+Not attempted
 
 ---
 
@@ -378,4 +397,4 @@ Complete only if attempted.
 
 One ownership or lifetime rule I can now explain without copying the workbook:
 
-[complete]
+ownership and destructor
