@@ -110,37 +110,42 @@ The raw-array experiment uses three Enemy objects in one array allocation.
 
 **Array count:**
 
-[complete]
+3
 
 **Prediction before running:**
 
-- Enemy 0 health: [complete]
-- Enemy 1 health: [complete]
-- Enemy 2 health: [complete]
-- Alive enemies: [complete]
-- Total health: [complete]
+- Enemy 0 health: 75
+- Enemy 1 health: 0
+- Enemy 2 health: 40
+- Alive enemies: 2
+- Total health: 115
 
 **Actual output:**
 
 ```text
-[copy the Raw dynamic array output here]
+Raw dynamic array
+Enemy 0 health: 75
+Enemy 1 health: 0
+Enemy 2 health: 40
+Alive enemies: 2
+Total health: 115
 ```
 
 **Which cleanup form did you use?**
 
-[complete]
+delete[] pEnemies;
 
 **Why would deleting each element individually be incorrect for this array?**
 
-[one or two sentences]
+its one array allocation, not three seperate new expressions, so it must be release as one block.
 
 ### Objects versus pointer slots
 
 Complete the statements.
 
-`new Enemy[3]` creates ____________________.
+`new Enemy[3]` creates three Enemy objects in on array allocation.
 
-`new Enemy*[3]{}` creates ____________________ and creates ______ Enemy objects.
+`new Enemy*[3]{}` creates three pointer slots (all nullptr) and zero Enemy Objects.
 
 ---
 

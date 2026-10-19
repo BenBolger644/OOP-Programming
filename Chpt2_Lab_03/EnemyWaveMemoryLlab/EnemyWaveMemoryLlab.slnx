@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="EnemyWaveMemoryLlab.vcxproj" />
+  <Project Path="EnemyWaveMemoryLlab.vcxproj" Id="0a0c2508-24d3-488a-838f-ce6f013ff964" />
 </Solution>
