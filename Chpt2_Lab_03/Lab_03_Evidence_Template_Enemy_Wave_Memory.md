@@ -155,11 +155,11 @@ Complete the statements.
 
 **Accepted wave-count range:**
 
-[complete]
+0 to 5 inclusice
 
 **What happens for `EnemyWave{8}`?**
 
-[one sentence]
+rejects, so the count stays 0 and nothing is allocated
 
 **Why is this forward declaration sufficient in `EnemyWave.h`?**
 
@@ -167,23 +167,23 @@ Complete the statements.
 class Enemy;
 ```
 
-[one sentence]
+The header stores only an Enemy*, and a pointer need the full class definition
 
 **Why must `EnemyWave.cpp` include `Enemy.h`?**
 
-[one sentence]
+Member calls need the complete type
 
 **Which allocation is owned by the EnemyWave destructor?**
 
-[one sentence]
+the new Enemy[m_count] array
 
 **Which cleanup form must the destructor use?**
 
-[complete]
+delete[]
 
 **Why are the copy constructor and copy assignment deleted?**
 
-[one or two sentences]
+A copy would duplicate only the pointer, leaving two owners that would both try to release the same array
 
 ---
 
