@@ -3,7 +3,10 @@
     "Data": {
         "Source": "d:\\school\\2ndyear\\oop-programming\\chpt2_lab_03\\enemywavememoryllab\\enemywave.cpp",
         "ProvidedModule": "",
-        "Includes": [],
+        "Includes": [
+            "d:\\school\\2ndyear\\oop-programming\\chpt2_lab_03\\enemywavememoryllab\\enemywave.h",
+            "d:\\school\\2ndyear\\oop-programming\\chpt2_lab_03\\enemywavememoryllab\\enemy.h"
+        ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
     }

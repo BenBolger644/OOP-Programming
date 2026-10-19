@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Enemy.h"
+#include "EnemyWave.h"
 
 int main()
 {
@@ -42,6 +43,28 @@ int main()
 	delete[] pEnemies;
 	pEnemies = nullptr;
 
-	return 0;
+	// 3. EnemyWave owner
 
+	std::cout << "Owned Wave\n";
+	EnemyWave wave{ 3 };
+	wave.damageEnemy(0, 25);
+	wave.damageEnemy(1, 100);
+	wave.damageEnemy(2, 60);
+
+	std::cout << "Enemies: " << wave.count() << "\n";
+	for (int i{ 0 }; i < wave.count(); ++i)
+	{
+		std::cout << "Enemy " << i << " health: " << wave.healthAt(i) << "\n";
+	}
+	std::cout << "Alive enemies: " << wave.aliveCount() << "\n";
+	std::cout << "Total health: " << wave.totalHealth() << "\n";
+
+	// Invalid Wave
+
+	std::cout << "Invalid wave \n";
+	EnemyWave invalid{ 8 };
+	std::cout << "Enemies: " << invalid.count() << "\n";
+	std::cout << "Total health: " << invalid.totalHealth() << "\n";
+
+	return 0;
 }

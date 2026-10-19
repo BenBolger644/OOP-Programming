@@ -201,17 +201,23 @@ wave.damageEnemy(2, 60);
 
 **Prediction before running:**
 
-- `count()`: [complete]
-- `healthAt(0)`: [complete]
-- `healthAt(1)`: [complete]
-- `healthAt(2)`: [complete]
-- `aliveCount()`: [complete]
-- `totalHealth()`: [complete]
+- `count()`: 3
+- `healthAt(0)`: 75
+- `healthAt(1)`: 0
+- `healthAt(2)`: 40
+- `aliveCount()`: 2
+- `totalHealth()`: 115
 
 **Actual output:**
 
 ```text
-[copy the Owned wave output here]
+Owned Wave
+Enemies: 3
+Enemy 0 health: 75
+Enemy 1 health: 0
+Enemy 2 health: 40
+Alive enemies: 2
+Total health: 115
 ```
 
 ### Invalid index check
@@ -224,15 +230,15 @@ wave.damageEnemy(9, 10);
 
 **Predicted return value:**
 
-[complete]
+false
 
 **Did the stored health values remain unchanged?**
 
-[yes / no]
+yes
 
 **Why must the index be checked before `m_enemies[t_index]` is used?**
 
-[one sentence]
+an out-of-range m_elements[t_index] would read or write memory outside the array
 
 ---
 
@@ -240,14 +246,16 @@ wave.damageEnemy(9, 10);
 
 **Prediction for `EnemyWave invalid{8}`:**
 
-- count: [complete]
-- total health: [complete]
-- dynamic Enemy array allocated? [yes / no]
+- count: 0
+- total health: 0
+- dynamic Enemy array allocated? no
 
 **Actual output:**
 
 ```text
-[copy the Invalid wave output here]
+Invalid wave
+Enemies: 0
+Total health: 0
 ```
 
 ---

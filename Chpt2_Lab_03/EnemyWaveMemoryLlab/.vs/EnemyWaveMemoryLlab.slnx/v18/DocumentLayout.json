@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\EnemyWave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|solutionrelative:EnemyWave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\EnemyWave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|solutionrelative:EnemyWave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A0C2508-24D3-488A-838F-CE6F013FF964}|EnemyWaveMemoryLlab.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,19 +34,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EnemyWave.cpp",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\EnemyWave.cpp",
               "RelativeDocumentMoniker": "EnemyWave.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\EnemyWave.cpp",
               "RelativeToolTip": "EnemyWave.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-19T19:48:43.936Z"
+              "WhenOpened": "2026-10-19T19:48:43.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Enemy.cpp",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\Enemy.cpp",
               "RelativeDocumentMoniker": "Enemy.cpp",
@@ -54,11 +55,12 @@
               "RelativeToolTip": "Enemy.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-19T19:48:36.48Z"
+              "WhenOpened": "2026-10-19T19:48:36.48Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EnemyWave.h",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\EnemyWave.h",
               "RelativeDocumentMoniker": "EnemyWave.h",
@@ -66,11 +68,12 @@
               "RelativeToolTip": "EnemyWave.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-19T19:48:25.009Z"
+              "WhenOpened": "2026-10-19T19:48:25.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Enemy.h",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\Enemy.h",
               "RelativeDocumentMoniker": "Enemy.h",
@@ -78,7 +81,8 @@
               "RelativeToolTip": "Enemy.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-19T19:48:14.113Z"
+              "WhenOpened": "2026-10-19T19:48:14.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,7 +92,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt2_Lab_03\\EnemyWaveMemoryLlab\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCQAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-19T19:47:57.149Z",
               "EditorCaption": ""
