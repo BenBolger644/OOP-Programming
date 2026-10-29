@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Abilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Abilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Abilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Abilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Abilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Abilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBE59F0-6383-4989-87C2-5EF7FBBD3E58}|GameAbilityVirtualLab.vcxproj|solutionrelative:Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Runner.h",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Runner.h",
               "RelativeDocumentMoniker": "Runner.h",
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Runner.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-29T17:32:55.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-29T17:32:55.625Z"
             },
             {
               "$type": "Document",
@@ -53,14 +52,14 @@
               "RelativeDocumentMoniker": "Abilities.h",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Abilities.h",
               "RelativeToolTip": "Abilities.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-10-29T17:32:48.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Runner.cpp",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Runner.cpp",
               "RelativeDocumentMoniker": "Runner.cpp",
@@ -68,18 +67,17 @@
               "RelativeToolTip": "Runner.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-29T17:32:38.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-29T17:32:38.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Abilities.cpp",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Abilities.cpp",
               "RelativeDocumentMoniker": "Abilities.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Abilities.cpp",
               "RelativeToolTip": "Abilities.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-29T17:32:33.469Z",
               "EditorCaption": ""
@@ -92,7 +90,7 @@
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_02\\GameAbilityVirtualLab\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-29T17:32:15.583Z",
               "EditorCaption": ""

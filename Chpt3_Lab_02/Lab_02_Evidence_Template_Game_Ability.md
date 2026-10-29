@@ -39,7 +39,7 @@ Check the files you created from scratch:
 - [ ] Debug / x64 selected
 - [ ] The starter program built and printed `Game ability lab`
 
-One project problem I solved, if applicable: [complete / none]
+One project problem I solved, if applicable: none
 
 ## 02 · Non-virtual calls
 
@@ -47,17 +47,19 @@ The first version of `GameAbility::activate()` is **not virtual**. A `GameAbilit
 
 My prediction for the three calls:
 
-- Direct ShieldAbility: [complete]
-- GameAbility base reference: [complete]
-- Direct HealAbility: [complete]
+- Direct ShieldAbility: Shield power: 20
+- GameAbility base reference: Generic ability:
+- Direct HealAbility: Healing points: 15
 
 Actual output:
-
 ```text
-[paste the three labelled result lines]
+Non-Virtual check
+Direct: Shield Power: 20
+Base View: Generic Ability
+Second Type: Healing Points: 15
 ```
 
-Why does the base reference use that function body? [one or two sentences]
+Why does the base reference use that function body? activate() isn't virtual, so the compiler picks the function from the reference's declared type ( Game Ability ), even though the object is a ShieldAbility
 
 ## 03 · Virtual calls and override
 

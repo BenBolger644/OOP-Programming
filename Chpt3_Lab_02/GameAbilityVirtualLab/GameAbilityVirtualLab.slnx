@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="GameAbilityVirtualLab.vcxproj" />
+  <Project Path="GameAbilityVirtualLab.vcxproj" Id="1ebe59f0-6383-4989-87c2-5ef7fbbd3e58" />
 </Solution>
