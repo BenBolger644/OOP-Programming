@@ -12,11 +12,6 @@ int GameAbility::power() const
 	return m_power;
 }
 
-void GameAbility::activate() const
-{
-	std::cout << "Generic Ability\n";
-}
-
 ShieldAbility::ShieldAbility(int t_power)
 	: GameAbility{ t_power }
 {
@@ -37,4 +32,14 @@ HealAbility::HealAbility(int t_power)
 void HealAbility::activate() const
 {
 	std::cout << "Healing Points: " << power() << "\n";
+}
+
+GameAbility::~GameAbility()
+{
+	std::cout << "- GameAbility\n";
+}
+
+HealAbility::~HealAbility()
+{
+	std::cout << "- HealAbility\n";
 }

@@ -3,10 +3,10 @@
 
 int main()
 {
-	std::cout << "Game Ability lab\n";
+	std::cout << "Game ability lab\n";
 
 	{
-		std::cout << "Non-Virtual check\n";
+		std::cout << "Virtual calls\n";
 
 		ShieldAbility shield{ 20 };
 		HealAbility heal{ 15 };
@@ -14,10 +14,18 @@ int main()
 
 		std::cout << "Direct: ";
 		shield.activate();
-		std::cout << "Base View: ";
+		std::cout << "Base view: ";
 		view.activate();
-		std::cout << "Second Type: ";
+		std::cout << "Second type: ";
 		heal.activate();
+
+		std::cout << "Owned action\n";
+		GameAbility* pOwned{ new HealAbility{7} };
+		pOwned->activate();
+		delete pOwned;
+		pOwned = nullptr;
+
+		std::cout << "Leaving Scope\n";
 	}
 
 	return 0;

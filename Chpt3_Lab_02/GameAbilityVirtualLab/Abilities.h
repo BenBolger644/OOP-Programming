@@ -5,9 +5,9 @@ class GameAbility
 {
 public:
 	explicit GameAbility(int t_power);
-	virtual ~GameAbility() = default;
+	virtual ~GameAbility();
 
-	void activate() const;
+	virtual void activate() const = 0;
 	int power() const;
 
 private:
@@ -18,14 +18,15 @@ class ShieldAbility : public GameAbility
 {
 public:
 	explicit ShieldAbility(int t_power);
-	void activate() const;
+	void activate() const override;
 };
 
 class HealAbility : public GameAbility
 {
 public:
 	explicit HealAbility(int t_power);
-	void activate() const;
+	~HealAbility() override;
+	void activate() const override;
 };
 
 #endif

@@ -23,7 +23,7 @@ For each prediction, make your prediction **before** running the code. When the 
 
 ## 01 · Project setup
 
-Project name: [complete]
+Project name: GameAbilityVirtualLab
 
 Check the files you created from scratch:
 
@@ -65,9 +65,9 @@ Why does the base reference use that function body? activate() isn't virtual, so
 
 After adding `virtual` in `GameAbility` and `override` to both concrete classes:
 
-Expected base-reference result: [complete before running]
+Expected base-reference result: Shield power: 20
 
-Actual base-reference result: [complete after running]
+Actual base-reference result: Shield Power: 20
 
 Which part of this declaration must match the base to make the override valid?
 
@@ -75,9 +75,9 @@ Which part of this declaration must match the base to make the override valid?
 void activate() const override;
 ```
 
-[one sentence]
+the whole signature including the const after the parameter list
 
-If you attempted the build-only `const` mismatch: first useful diagnostic or concise explanation: [complete / not attempted]
+If you attempted the build-only `const` mismatch: first useful diagnostic or concise explanation: Not attempted
 
 - [ ] The original matching declaration has been restored.
 
@@ -89,12 +89,12 @@ What is the purpose of the following declaration?
 virtual void activate() const = 0;
 ```
 
-[one or two sentences]
+it makes activate() pure virtual, so GameAbility is abstract and every class must supply its own activate()
 
 Which of the following may be a complete object? Record the explanation.
 
-- `GameAbility generic{10};` — [allowed / rejected] because [complete]
-- `ShieldAbility shield{20};` — [allowed / rejected] because [complete]
+- `GameAbility generic{10};` — rejected because its abstract and has a pure virtual function
+- `ShieldAbility shield{20};` — allowed because it overrides activate(), so its a complete concrete class
 
 - [ ] The temporary abstract-object build-only experiment has been removed.
 - [ ] The remaining valid program builds.
@@ -106,18 +106,20 @@ One `HealAbility{7}` is created with `new` and owned through `GameAbility*`.
 Expected destructor messages after the matching `delete`:
 
 ```text
-[complete before running]
+- HealAbility
+- GameAbility
 ```
 
 Observed two-line destructor trace:
 
 ```text
-[complete after running]
+- HealAbility
+- GameAbility
 ```
 
-Why does the base destructor need to be virtual for this deletion? [one sentence]
+Why does the base destructor need to be virtual for this deletion? delete through a GameAbility* runs the most-derived destructor first. With a non-virtual basae destructor this is undefined behaviour
 
-Why should you **not** delete a pointer that merely refers to a local `ShieldAbility`? [one sentence]
+Why should you **not** delete a pointer that merely refers to a local `ShieldAbility`? it was never allocated with new, the pointer only borrows it, and the local object is destroyed at the end of scope.
 
 ## 06 · Generic runner
 
