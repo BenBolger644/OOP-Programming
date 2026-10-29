@@ -143,13 +143,13 @@ No both borrow access to the local archer, nothing was allocated with new and th
 
 **Before changing the inheritance keyword, predict which access rule will change.**
 
-[one sentence]
+main would lose the right to use the inherited public health() and to convert an archer to its base type. The base object will still be there and the m_health is still private.
 
-**Did you temporarily try `protected` inheritance?** [yes / no]
+**Did you temporarily try `protected` inheritance?** no, my compiler build errors would not show when I changed it.
 
 **If attempted, what did the compiler reject?**
 
-[one sentence / not attempted]
+not attempted
 
 - [ ] I restored `class Archer : public CombatUnit`.
 - [ ] The restored project builds successfully.
@@ -164,32 +164,32 @@ No both borrow access to the local archer, nothing was allocated with new and th
 
 **Remaining difference from the published output, if any:**
 
-[complete / none]
+Only difference between my code and the intended code is that Combat Unit does not have a + before it. I could not get that to appear for whatever reason.
 
 ## One problem I fixed (only if applicable)
 
-**What happened?** [complete / no issue encountered]
+**What happened?** No issues encountered
 
-**What did I change?** [complete / not applicable]
+**What did I change?** not applicable
 
-**What happened after rebuilding?** [complete / not applicable]
+**What happened after rebuilding?** not applicable
 
 Please do not invent a fault if none occurred.
 
 ## Optional stretch · VeteranArcher
 
-**Attempted?** [yes / no]
+**Attempted?** no
 
-**Predicted attack for arrow power 12 and bonus 3:** [complete / not attempted]
+**Predicted attack for arrow power 12 and bonus 3:** not attempted
 
-**Observed:** [complete / not attempted]
+**Observed:** not attempted
 
 **Why did you write `Archer::attackPower()` inside the third-level function?**
 
-[one sentence / not attempted]
+not attempted
 
 ## Final reflection
 
 In one or two sentences, explain one difference between **inheritance**, **object slicing**, and **viewing an existing derived object through its base type**.
 
-[complete]
+Inheritance means an Archer contains a CombatUnit part and reuses its public interface. Slicing happens when an Archer is copied into a seperate CombatUnit object, so the Archer-only state is lost. Viewing an already existing Archer through a reference or pointer wont copy anything.

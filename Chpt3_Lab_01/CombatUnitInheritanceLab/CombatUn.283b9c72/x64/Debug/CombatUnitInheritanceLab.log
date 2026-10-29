@@ -1,2 +1,20 @@
 ﻿  main.cpp
-  CombatUnitInheritanceLab.vcxproj -> D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\x64\Debug\CombatUnitInheritanceLab.exe
+D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\main.cpp(19,37): error C2247: 'CombatUnit::health' not accessible because 'Archer' uses 'protected' to inherit from 'CombatUnit'
+      D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\CombatUnit.h(10,6):
+      see declaration of 'CombatUnit::health'
+      D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\Archer.h(6,7):
+      see declaration of 'Archer'
+      D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\CombatUnit.h(4,7):
+      see declaration of 'CombatUnit'
+  
+D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\main.cpp(19,37): error C2248: 'CombatUnit::health': cannot access protected member declared in class 'Archer'
+      D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\CombatUnit.h(10,6):
+      see declaration of 'CombatUnit::health'
+      D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\Archer.h(6,7):
+      see declaration of 'Archer'
+  
+D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\main.cpp(26,24): error C2243: 'type cast': conversion from 'Archer *' to 'const CombatUnit &' exists, but is inaccessible
+D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\main.cpp(27,31): error C2243: 'type cast': conversion from 'Archer *' to 'const CombatUnit &' exists, but is inaccessible
+D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\main.cpp(28,28): error C2243: 'type cast': conversion from 'Archer *' to 'const CombatUnit *' exists, but is inaccessible
+D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\main.cpp(40,22): error C2243: 'type cast': conversion from 'Archer *' to 'CombatUnit *' exists, but is inaccessible
+D:\School\2ndYear\OOP-Programming\Chpt3_Lab_01\CombatUnitInheritanceLab\main.cpp(41,23): error C2243: 'static_cast': conversion from 'CombatUnit *' to 'Archer *' exists, but is inaccessible
