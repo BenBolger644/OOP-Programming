@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\CombatUnit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:CombatUnit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\CombatUnit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:CombatUnit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\Archer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:Archer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\CombatUnit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{283B9C72-C893-4773-9851-56FFC24B241D}|CombatUnitInheritanceLab.vcxproj|solutionrelative:CombatUnit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Archer.cpp",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\Archer.cpp",
               "RelativeDocumentMoniker": "Archer.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\Archer.cpp",
               "RelativeToolTip": "Archer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-23T08:30:30.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Archer.h",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\Archer.h",
               "RelativeDocumentMoniker": "Archer.h",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\Archer.h",
               "RelativeToolTip": "Archer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-10-23T08:30:10.409Z",
               "EditorCaption": ""
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CombatUnit.h",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\CombatUnit.h",
               "RelativeDocumentMoniker": "CombatUnit.h",
@@ -81,18 +81,17 @@
               "RelativeToolTip": "CombatUnit.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-23T08:30:03.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-23T08:30:03.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_01\\CombatUnitInheritanceLab\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-23T08:29:15.026Z",
               "EditorCaption": ""

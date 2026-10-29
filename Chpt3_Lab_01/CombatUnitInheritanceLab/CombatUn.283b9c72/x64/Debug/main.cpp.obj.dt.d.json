@@ -128,7 +128,8 @@
             "d:\\apps\\visual studio\\visual studio 2026\\vc\\tools\\msvc\\14.51.36231\\include\\clocale",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\locale.h",
             "d:\\apps\\visual studio\\visual studio 2026\\vc\\tools\\msvc\\14.51.36231\\include\\ostream",
-            "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_01\\combatunitinheritancelab\\combatunit.h"
+            "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_01\\combatunitinheritancelab\\combatunit.h",
+            "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_01\\combatunitinheritancelab\\archer.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

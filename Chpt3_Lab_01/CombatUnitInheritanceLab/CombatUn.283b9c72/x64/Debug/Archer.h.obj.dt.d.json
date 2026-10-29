@@ -3,7 +3,9 @@
     "Data": {
         "Source": "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_01\\combatunitinheritancelab\\archer.h",
         "ProvidedModule": "",
-        "Includes": [],
+        "Includes": [
+            "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_01\\combatunitinheritancelab\\combatunit.h"
+        ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
     }

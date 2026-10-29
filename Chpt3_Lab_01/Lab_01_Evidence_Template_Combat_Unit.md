@@ -66,26 +66,32 @@ Outside code can only read or change it through the class's public interface, so
 **Predict before running:** write the order of the two constructor messages and the two destructor messages.
 
 ```text
-[add your prediction]
+  + CombatUnit
+  + Archer
+  - Archer
+  - CombatUnit
 ```
 
 **Actual order:**
 
 ```text
-[copy the constructor/destructor messages]
+  CombatUnit
+  + Archer
+  - Archer
+  - CombatUnit
 ```
 
-**Starting health:** [complete]
+**Starting health:** 80
 
-**Archer attack power:** [complete]
+**Archer attack power:** 12
 
 **Why must the Archer constructor initialise `CombatUnit{t_health}` before its own body runs?**
 
-[one or two sentences]
+the base part must exost before the derived part. CombatUnit doesn't have a default constructor meaning the archer constructor has no supply to the health value and the base is built before the Archer's own members and constructor body.
 
 **Can Archer directly access CombatUnit’s private `m_health`? Why?**
 
-[one sentence]
+Nop its private, archer uses the public health() instead
 
 ## 04 · Copy or view?
 
