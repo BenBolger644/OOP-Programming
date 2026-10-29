@@ -1,0 +1,186 @@
+# Chapter 03 · Practical Lab 02 · Evidence
+## Game ability virtual console
+
+Student identifier: c00324085
+
+Date (YYYY-MM-DD): 2026-10-29
+
+Visual Studio version: v2026
+
+Platform Toolset: v145 · ISO C++17 · /W4 · Debug / x64
+
+Repository URL, if used: https://github.com/BenBolger644/OOP-Programming
+
+---
+
+## How to complete this record
+
+Fill this in while you work through the practical. Short answers are sufficient. You do **not** need to invent new tests, create a testing framework, or take screenshots of every step. The practical already gives you the expected console output.
+
+For each prediction, make your prediction **before** running the code. When the program behaves differently, fix the code or explain your revised understanding. Record only genuine problems; do not manufacture a compiler error to fill an evidence box.
+
+---
+
+## 01 · Project setup
+
+Project name: [complete]
+
+Check the files you created from scratch:
+
+- [ ] `Main.cpp`
+- [ ] `Abilities.h`
+- [ ] `Abilities.cpp`
+- [ ] `Runner.h`
+- [ ] `Runner.cpp`
+
+- [ ] v145 selected
+- [ ] ISO C++17 selected
+- [ ] `/W4` selected
+- [ ] Debug / x64 selected
+- [ ] The starter program built and printed `Game ability lab`
+
+One project problem I solved, if applicable: [complete / none]
+
+## 02 · Non-virtual calls
+
+The first version of `GameAbility::activate()` is **not virtual**. A `GameAbility const&` refers to a `ShieldAbility` object.
+
+My prediction for the three calls:
+
+- Direct ShieldAbility: [complete]
+- GameAbility base reference: [complete]
+- Direct HealAbility: [complete]
+
+Actual output:
+
+```text
+[paste the three labelled result lines]
+```
+
+Why does the base reference use that function body? [one or two sentences]
+
+## 03 · Virtual calls and override
+
+After adding `virtual` in `GameAbility` and `override` to both concrete classes:
+
+Expected base-reference result: [complete before running]
+
+Actual base-reference result: [complete after running]
+
+Which part of this declaration must match the base to make the override valid?
+
+```cpp
+void activate() const override;
+```
+
+[one sentence]
+
+If you attempted the build-only `const` mismatch: first useful diagnostic or concise explanation: [complete / not attempted]
+
+- [ ] The original matching declaration has been restored.
+
+## 04 · Abstract GameAbility
+
+What is the purpose of the following declaration?
+
+```cpp
+virtual void activate() const = 0;
+```
+
+[one or two sentences]
+
+Which of the following may be a complete object? Record the explanation.
+
+- `GameAbility generic{10};` — [allowed / rejected] because [complete]
+- `ShieldAbility shield{20};` — [allowed / rejected] because [complete]
+
+- [ ] The temporary abstract-object build-only experiment has been removed.
+- [ ] The remaining valid program builds.
+
+## 05 · Virtual destructor and ownership
+
+One `HealAbility{7}` is created with `new` and owned through `GameAbility*`.
+
+Expected destructor messages after the matching `delete`:
+
+```text
+[complete before running]
+```
+
+Observed two-line destructor trace:
+
+```text
+[complete after running]
+```
+
+Why does the base destructor need to be virtual for this deletion? [one sentence]
+
+Why should you **not** delete a pointer that merely refers to a local `ShieldAbility`? [one sentence]
+
+## 06 · Generic runner
+
+Your runner should **not** name the concrete classes. It works through the GameAbility interface.
+
+Given the three slots `&shield`, `nullptr`, `&heal`:
+
+Predicted number of activations: [complete]
+
+Actual number: [complete]
+
+Were shield and heal's stored powers unchanged? [yes / no]
+
+Boundary calls:
+
+| Call | Predicted | Actual |
+|---|---|---|
+| `activateReady(nullptr, 0)` | [complete] | [complete] |
+| `activateReady(nullptr, 1)` | [complete] | [complete] |
+
+Why must the runner check a slot for `nullptr` before calling `power()` or `activate()`? [one sentence]
+
+Why can a third concrete ability join the array without a new branch in `Runner.cpp`? [one sentence]
+
+## Final output
+
+Paste your final console transcript, or provide an agreed accessible text equivalent:
+
+```text
+[paste the final console output]
+```
+
+Does it match the practical's published final output? [yes / no]
+
+If no, record the remaining difference: [complete / not applicable]
+
+## One real problem I fixed (optional)
+
+What happened? [complete / none]
+
+What changed? [complete / not applicable]
+
+What happened after rebuilding? [complete / not applicable]
+
+## Optional stretch · DashAbility
+
+- [ ] Not attempted
+- [ ] Attempted: implemented `DashAbility` with `activate() const override`
+- [ ] Runner works with DashAbility without edits to `Runner.cpp`
+
+My extra output (if attempted): [complete / not attempted]
+
+## Final checklist
+
+- [ ] My project was created from an Empty Project.
+- [ ] All five required files are present in the Visual Studio project.
+- [ ] The program builds with v145, C++17, /W4, Debug / x64.
+- [ ] The initial non-virtual result has been understood and recorded.
+- [ ] `activate()` is virtual and then pure in the final base class.
+- [ ] Both concrete `activate() const` declarations use `override` correctly.
+- [ ] `GameAbility` cannot be instantiated as a complete object.
+- [ ] The base destructor is virtual and has a matching definition.
+- [ ] The owned dynamically allocated `HealAbility` is deleted exactly once.
+- [ ] The runner skips invalid/null/inactive inputs according to the brief.
+- [ ] Temporary deliberate compilation failures have been removed.
+- [ ] The final console output matches the published example.
+
+One concept I can now explain without looking at the code: [complete]

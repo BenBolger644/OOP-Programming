@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "GameAbil.1ebe59f0\\x64\\Debug\\Runner.obj",
+            "outputs": [
+                "GameAbil.1ebe59f0\\x64\\Debug\\Runner.cpp.obj.dt.module.json",
+                "GameAbil.1ebe59f0\\x64\\Debug\\Runner.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
