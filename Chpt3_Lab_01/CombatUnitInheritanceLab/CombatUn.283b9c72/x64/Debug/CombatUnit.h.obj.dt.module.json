@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CombatUn.283b9c72\\x64\\Debug\\CombatUnit.obj",
+            "outputs": [
+                "CombatUn.283b9c72\\x64\\Debug\\CombatUnit.h.obj.dt.module.json",
+                "CombatUn.283b9c72\\x64\\Debug\\CombatUnit.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
