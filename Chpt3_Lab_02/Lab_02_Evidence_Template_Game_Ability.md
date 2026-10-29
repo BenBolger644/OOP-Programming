@@ -127,42 +127,61 @@ Your runner should **not** name the concrete classes. It works through the GameA
 
 Given the three slots `&shield`, `nullptr`, `&heal`:
 
-Predicted number of activations: [complete]
+Predicted number of activations: 2
 
-Actual number: [complete]
+Actual number: 2
 
-Were shield and heal's stored powers unchanged? [yes / no]
-
+Were shield and heal's stored powers unchanged? yes
 Boundary calls:
 
 | Call | Predicted | Actual |
 |---|---|---|
-| `activateReady(nullptr, 0)` | [complete] | [complete] |
-| `activateReady(nullptr, 1)` | [complete] | [complete] |
+| `activateReady(nullptr, 0)` | 0 | 0 |
+| `activateReady(nullptr, 1)` | -1 | -1 |
 
-Why must the runner check a slot for `nullptr` before calling `power()` or `activate()`? [one sentence]
+Why must the runner check a slot for `nullptr` before calling `power()` or `activate()`? calling power() or activate() through a null pointer is undefined behaviour
 
-Why can a third concrete ability join the array without a new branch in `Runner.cpp`? [one sentence]
+Why can a third concrete ability join the array without a new branch in `Runner.cpp`? the runner calls the virtual activate() through the GameAbility interface, so it never needs to know the concrete type
 
 ## Final output
 
 Paste your final console transcript, or provide an agreed accessible text equivalent:
 
 ```text
-[paste the final console output]
+
+Virtual callsGame ability lab
+Direct: Shield Power: 20
+Base view: Shield Power: 20
+Second type: Healing Points: 15
+Ability Runner
+Shield Power: 20
+Healing Points: 15
+Activated: 2
+Powers: 20 15
+Boundary checks
+Empty: 0
+Missing Array: -1
+Owned action
+Healing Points: 7
+- HealAbility
+- GameAbility
+Leaving Scope
+- HealAbility
+- GameAbility
+- GameAbility
 ```
 
-Does it match the practical's published final output? [yes / no]
+Does it match the practical's published final output? ywa
 
-If no, record the remaining difference: [complete / not applicable]
+If no, record the remaining difference: not applicable
 
 ## One real problem I fixed (optional)
 
-What happened? [complete / none]
+What happened? none
 
-What changed? [complete / not applicable]
+What changed? not applicable
 
-What happened after rebuilding? [complete / not applicable]
+What happened after rebuilding? not applicable
 
 ## Optional stretch · DashAbility
 
@@ -187,4 +206,5 @@ My extra output (if attempted): [complete / not attempted]
 - [ ] Temporary deliberate compilation failures have been removed.
 - [ ] The final console output matches the published example.
 
-One concept I can now explain without looking at the code: [complete]
+One concept I can now explain without looking at the code:
+A base class reference only calls the derived version if the function is virtual. Without virtual the compiler uses the references declared type so the override and virtual destructors are what make base class interaces safe and free to use without problem

@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Abilities.h"
+#include "Runner.h"
 
 int main()
 {
@@ -18,6 +19,16 @@ int main()
 		view.activate();
 		std::cout << "Second type: ";
 		heal.activate();
+
+		std::cout << "Ability Runner\n";
+		GameAbility const* abilities[]{ &shield, nullptr, &heal };
+		int activated{ activateReady(abilities, 3) };
+		std::cout << "Activated: " << activated << "\n";
+		std::cout << "Powers: " << shield.power() << " " << heal.power() << "\n";
+
+		std::cout << "Boundary checks\n";
+		std::cout << "Empty: " << activateReady(nullptr, 0) << "\n";
+		std::cout << "Missing Array: " << activateReady(nullptr, 1) << "\n";
 
 		std::cout << "Owned action\n";
 		GameAbility* pOwned{ new HealAbility{7} };

@@ -3,7 +3,10 @@
     "Data": {
         "Source": "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_02\\gameabilityvirtuallab\\runner.cpp",
         "ProvidedModule": "",
-        "Includes": [],
+        "Includes": [
+            "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_02\\gameabilityvirtuallab\\runner.h",
+            "d:\\school\\2ndyear\\oop-programming\\chpt3_lab_02\\gameabilityvirtuallab\\abilities.h"
+        ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
     }
