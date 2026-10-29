@@ -123,21 +123,21 @@ It was made by copy constructor, which doesnt print anything
 
 ## 05 · Known-object conversion
 
-Identify the complete object that `pUnit` points into: [complete]
+Identify the complete object that `pUnit` points into: Archer archer{75. 9}
 
-**Expected base health:** [complete]
+**Expected base health:** 75
 
-**Expected recovered Archer attack:** [complete]
+**Expected recovered Archer attack:** 9
 
-**Observed values:** [complete]
+**Observed values:** Base health: 75, Recovered attack: 9
 
 **What fact makes this particular `static_cast<Archer*>` valid?**
 
-[one sentence]
+assigned &archer to pUnit so I know it points to the base part of a real archer
 
 **Should either pointer be deleted in this lab? Explain briefly.**
 
-[one sentence]
+No both borrow access to the local archer, nothing was allocated with new and the archer is destroyed automatically after the closing brace
 
 ## 06 · Access investigation
 

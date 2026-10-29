@@ -34,5 +34,15 @@ int main()
 		std::cout << "Original Attack: " << archer.attackPower() << "\n";
 	}
 
+	std::cout << "Known-object cast\n";
+	{
+		Archer archer{ 75, 9 };
+		CombatUnit* pUnit{ &archer };
+		Archer* pRecovered{ static_cast<Archer*>(pUnit) };
+
+		std::cout << "Base health: " << pUnit->health() << "\n";
+		std::cout << "Recovered Attack: " << pRecovered->attackPower() << "\n";
+	}
+
 	return 0;
 }
