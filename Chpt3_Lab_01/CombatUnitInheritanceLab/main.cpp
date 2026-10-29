@@ -20,5 +20,19 @@ int main()
 		std::cout << "Attack: " << archer.attackPower() << "\n";
 	}
 
+	std::cout << "Copy and Views\n";
+	{
+		Archer archer{ 80, 12 };
+		CombatUnit baseCopy{ archer };
+		CombatUnit const& baseView{ archer };
+		CombatUnit const* pBase{ &archer };
+
+		std::cout << "Direct Attack: " << archer.attackPower() << "\n";
+		std::cout << "Copied Attack: " << baseCopy.attackPower() << "\n";
+		std::cout << "Reference Attack: " << pBase->attackPower() << "\n";
+		std::cout << "Pointer Attack: " << pBase->attackPower() << "\n";
+		std::cout << "Original Attack: " << archer.attackPower() << "\n";
+	}
+
 	return 0;
 }

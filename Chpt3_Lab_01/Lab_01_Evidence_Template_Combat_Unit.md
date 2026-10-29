@@ -99,27 +99,27 @@ Before running, predict the five attack results.
 
 | Expression | Prediction | Observed |
 |---|---|---|
-| `archer.attackPower()` | [complete] | [complete] |
-| `baseCopy.attackPower()` | [complete] | [complete] |
-| `baseView.attackPower()` | [complete] | [complete] |
-| `pBase->attackPower()` | [complete] | [complete] |
-| `archer.attackPower()` again | [complete] | [complete] |
+| `archer.attackPower()` | 12 | 12 |
+| `baseCopy.attackPower()` | 0 | 0 |
+| `baseView.attackPower()` | 0 | 0 |
+| `pBase->attackPower()` | 0 | 0 |
+| `archer.attackPower()` again | 12 | 12 |
 
 **Which declaration makes a new independent base object?**
 
-[complete]
+CombatUnit baseCopy{archer};
 
 **Which declarations are only views of the original Archer?**
 
-[complete]
+CombatUnit const& baseView{archer}; and CombatUnit const* pBase{&archer};
 
 **Why does a base reference produce the base attack result even though it still refers to the Archer?**
 
-[one or two sentences]
+it still refers to the whole Archer. attackPower is non-virtual so the compiler picks the function from the declared type of expression (CombatUnit) not from the actual object
 
 **Why does the copied CombatUnit produce a destructor message without printing another parameterised constructor message?**
 
-[one or two sentences]
+It was made by copy constructor, which doesnt print anything
 
 ## 05 · Known-object conversion
 
