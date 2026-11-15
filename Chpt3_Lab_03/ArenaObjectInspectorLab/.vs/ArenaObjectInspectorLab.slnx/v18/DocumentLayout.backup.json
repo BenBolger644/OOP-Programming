@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|solutionrelative:Inspector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|solutionrelative:Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\ArenaObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|solutionrelative:ArenaObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\ArenaObjects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|solutionrelative:ArenaObjects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F533468-EC19-48D0-A733-4622A0775BCE}|ArenaObjectInspectorLab.vcxproj|solutionrelative:Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,40 +40,40 @@
               "RelativeDocumentMoniker": "Inspector.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\Inspector.cpp",
               "RelativeToolTip": "Inspector.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwGYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-15T17:40:48.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Inspector.h",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\Inspector.h",
               "RelativeDocumentMoniker": "Inspector.h",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\Inspector.h",
               "RelativeToolTip": "Inspector.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-11-15T17:37:36.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ArenaObjects.h",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\ArenaObjects.h",
               "RelativeDocumentMoniker": "ArenaObjects.h",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\ArenaObjects.h",
               "RelativeToolTip": "ArenaObjects.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-11-15T17:17:22.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ArenaObjects.cpp",
               "DocumentMoniker": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\ArenaObjects.cpp",
               "RelativeDocumentMoniker": "ArenaObjects.cpp",
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "D:\\School\\2ndYear\\OOP-Programming\\Chpt3_Lab_03\\ArenaObjectInspectorLab\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-15T17:16:47.911Z",
               "EditorCaption": ""

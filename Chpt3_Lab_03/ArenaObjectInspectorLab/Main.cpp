@@ -34,5 +34,23 @@ int main()
 	std::cout << "Crate is exact Guard: " << isExactGuard(&crate) << "\n";
 	std::cout << "Pointer is ArenaObject const*: " << (typeid(selected) == typeid(ArenaObject const*)) << "\n";
 
-	return 0;
+	std::cout << "Reference Casts\n";
+	std::cout << "Guard Reference: " << requireGuardHealth(guard) << "\n";
+	std::cout << "Crate Reference: ";
+	try
+	{
+		std::cout << requireGuardHealth(crate) << "\n";
+	}
+	catch (std::bad_cast const&)
+	{
+		std::cout << "Not a guard\n";
+	}
+
+	ArenaObject const* slots[]{ &guard, &elite, &crate, nullptr };
+
+	std::cout << "Selection\n";
+	std::cout << "Guard-compatible: " << countGuardViews(slots, 4) << "\n";
+	std::cout << "Exact guards: " << countExactGuards(slots, 4) << "\n";
+	std::cout << "Empty selection: " << countGuardViews(nullptr, 0) << "\n";
+	std::cout << "Missing storage: " << countGuardViews(nullptr, 1) << "\n";
 }

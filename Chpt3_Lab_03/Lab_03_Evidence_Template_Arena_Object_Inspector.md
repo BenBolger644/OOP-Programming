@@ -4,7 +4,7 @@
 **Student ID:** c00324085
 **Date (YYYY-MM-DD):** 15/11/2026
 **Visual Studio version:** v2026
-*Repository link (if used):** [complete / not used]
+*Repository link (if used):** https://github.com/BenBolger644/OOP-Programming/tree/main/Chpt3_Lab_03
 
 Build settings: v145 · C++17 · `/W4` · `/GR` · `/EHsc` · Debug · x64
 
@@ -83,48 +83,77 @@ the first describes the pointers own type whereas the second give the type of th
 **Record the two reference-cast results:**
 
 ```text
-[paste the Reference casts section]
+Reference Casts
+Guard Reference: 60
+Crate Reference: Not a guard
 ```
 
 **What does a failed checked `Guard const&` conversion do, and which exception is caught?**  
-[one sentence]
+theres no null reference, so a failed Guard const& throws std::bad_cast
 
 ## 06 · Mixed selection
 
 **Predictions (before running):**
 
-- Guard-compatible objects: [complete]
-- Exact Guard objects: [complete]
-- Empty selection result: [complete]
-- Positive count with null array result: [complete]
+- Guard-compatible objects: 2
+- Exact Guard objects: 1
+- Empty selection result: 0
+- Positive count with null array result: -1
 
 **Actual output:**
 
 ```text
-[paste the Selection section]
+Selection
+Guard-compatible: 2
+Exact guards: 1
+Empty selection: 0
+Missing storage: -1
 ```
 
 **Which checks run before indexing the selection array?**  
-[one or two sentences]
+the count is validated, then a count of 0 returns 0, then a null array with a positive count returns -1, and then the loop reads the array
 
 **Why is a null-element guard required before `typeid(*slot)`?**  
-[one sentence]
+dereferencing a null pointer on a polymorphic type isnt valid, so null slots are skipped over
 
 ## 07 · Virtual function definition investigation
 
 **Was the temporary error observed during compilation or linking?**  
-[complete]
+linking
 
 **What definition was missing?**  
-[complete]
+EliteGuard::report() const;
 
 **What did you restore to fix the build?**  
-[one sentence]
+the commented out definition, and then it build completely.
 
 ## 08 · Final console output
 
 ```text
-[paste the complete final output here]
+Arena Object Inspector
+Shared Behaviour
+Guard health: 60
+Elite Guard health: 90, bonus: 15
+Supply Crate Items: 4
+Checked Guard Views
+Guard: 60
+Elite Guard: 90
+Supply Crate: -1
+None: -1
+Exact Guard Checks
+Guard is exact Guard: true
+Elite is exact Guard: false
+Elite is exact EliteGuard: true
+Crate is exact Guard: false
+Pointer is ArenaObject const*: true
+Reference Casts
+Guard Reference: 60
+Crate Reference: Not a guard
+Selection
+Guard-compatible: 2
+Exact guards: 1
+Empty selection: 0
+Missing storage: -1
 ```
 
 - [ ] The output matches the practical's final expected result.
@@ -132,13 +161,13 @@ the first describes the pointers own type whereas the second give the type of th
 - [ ] The final Debug/x64 project builds successfully.
 
 **One key difference between a compatible derived view and exact runtime type:**  
-[one or two sentences]
+A compatible derived view asks if the ibject can be used as a type. So an EliteGuard can be viewed as a Guard. The exact runtime type asks what the whole object really is, so an eliteGuard is not exactly a guard but instead a version of it.
 
 ## Optional stretch · Object size
 
 Only if attempted: record `sizeof` values and compiler/build settings. Explain why they do not establish a portable vtable size or member offset.
 
-[not attempted / measurements and explanation]
+Not attempted
 
 ---
 
