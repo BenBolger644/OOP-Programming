@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ArenaObjectInspectorLab.vcxproj" />
+  <Project Path="ArenaObjectInspectorLab.vcxproj" Id="1f533468-ec19-48d0-a733-4622a0775bce" />
 </Solution>

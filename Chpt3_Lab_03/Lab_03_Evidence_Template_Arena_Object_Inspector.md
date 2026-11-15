@@ -25,19 +25,22 @@ No Build problem occurred
 ## 02 · Shared virtual behaviour
 
 **Which class is abstract, and why?**  
-[one sentence]
+ArenaObject because report() is pure virtual so it cant be constructed directly.
 
 **What does `EliteGuard` inherit from `Guard`?**  
-[one sentence]
+inherits its health
 
 **Shared behaviour output:**
 
 ```text
-[paste the Shared behaviour section from your console]
+Shared Behaviour
+Guard health: 60
+Elite Guard health: 90, bonus: 15
+Supply Crate Items: 4
 ```
 
 **Why can `selected->report()` call the correct function for all three objects?**  
-[one sentence]
+report() is virtual so the call is from whatever object selected points to
 
 ## 03 · Checked Guard views
 
@@ -45,30 +48,35 @@ Before running, predict what `readGuardHealth` returns:
 
 | Argument | My prediction | Actual |
 |---|---|---|
-| `&guard` | [complete] | [complete] |
-| `&elite` | [complete] | [complete] |
-| `&crate` | [complete] | [complete] |
-| `nullptr` | [complete] | [complete] |
+| `&guard` | 60 | 60 |
+| `&elite` | 90 | 90 |
+| `&crate` | -1 | -1 |
+| `nullptr` | -1 | -1 |
 
 **Why must the cast result be checked before calling `health()`?**  
-[one sentence]
+a failed pointer return nullptr, and calling health() through it is undefined behaviour
 
 **Does a successful cast create a new Guard object or owner?**  
-[yes/no and one sentence]
+No it gives a checked pointer to the existing objects. There isnt any copying or no ownership
 
 ## 04 · Exact types
 
 **Record the five exact-type checks shown in the lab:**
 
 ```text
-[paste the Exact type checks section]
+Exact Guard Checks
+Guard is exact Guard: true
+Elite is exact Guard: false
+Elite is exact EliteGuard: true
+Crate is exact Guard: false
+Pointer is ArenaObject const*: true
 ```
 
 **Why is `EliteGuard` Guard-compatible but not exactly `Guard`?**  
-[one or two sentences]
+an EliteGuard contains a guard view so it is valid but the whole object is EliteGuard and not Guard so its not exact
 
 **How do `typeid(selected)` and `typeid(*selected)` differ?**  
-[one sentence, assuming selected is a live, non-null polymorphic view]
+the first describes the pointers own type whereas the second give the type of the object it points to
 
 ## 05 · Checked references
 
