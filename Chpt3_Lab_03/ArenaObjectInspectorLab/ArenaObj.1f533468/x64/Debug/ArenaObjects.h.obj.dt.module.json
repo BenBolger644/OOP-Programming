@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "ArenaObj.1f533468\\x64\\Debug\\ArenaObjects.obj",
+            "outputs": [
+                "ArenaObj.1f533468\\x64\\Debug\\ArenaObjects.h.obj.dt.module.json",
+                "ArenaObj.1f533468\\x64\\Debug\\ArenaObjects.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
